@@ -34,3 +34,5 @@
 *.ilk
 *.pdb
 *.obj
+intro/input.txt
+intro/output.txt
