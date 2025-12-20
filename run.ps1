@@ -6,7 +6,7 @@ param(
 cls
 
 # Compile the passed C++ file
-cl $cppFile
+cl $cppFile /std:c++20
 
 # If compile succeeds, run the generated exe
 if ($LASTEXITCODE -eq 0) {
